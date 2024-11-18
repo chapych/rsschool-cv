@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+code {
+    white-space: pre-wrap;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 70px 0;
+    line-height: 0;
+  }
